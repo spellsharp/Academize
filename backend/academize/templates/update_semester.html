@@ -1,0 +1,30 @@
+<form method="post">
+    {% csrf_token %}
+    <h1>Add/Edit Marks and CGPA</h1>
+    <br />
+    <br />
+    <br />
+    
+    <label for="student_id">Student ID:</label>
+    <input type="text" name="student_id" id="student_id">
+    <br />
+    <br />
+    
+    <label for="semester_num">Semester:</label>
+    <input type="text" name="semester_num" id="semester_num">
+    <br />
+    <br />
+    <label for="cgpa">CGPA:</label>
+    <input type="text" name="cgpa" id="cgpa">
+    <br />
+    <br />
+    <label for="subject_id">Subject ID:</label>
+    <input type="subject_id" name="subject_id" id="subject_id" >
+    <br />
+    <br />
+    <label for="marks">Marks:</label>
+    <input type="text" name="marks" id="marks">
+    <br />
+    <br /> 
+    <input type="submit" value="Update">
+  </form>

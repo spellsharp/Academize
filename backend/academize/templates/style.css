@@ -1,0 +1,49 @@
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+header h1 {
+  margin: 0;
+}
+
+/* Style the navigation links */
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Style the main content */
+main {
+  padding: 20px;
+}
+
+/* Style the form inputs */
+form label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+form input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

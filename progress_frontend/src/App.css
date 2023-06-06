@@ -1,0 +1,253 @@
+.login {
+    background-image: url('./components/assets/back1.png');
+    background-size: cover;
+}
+
+/* html {
+  background-color: black;
+} */
+
+.addStudents {
+  background-color: #e7e7e7;
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+input::file-selector-button {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 100px;
+  background-color: #A7BED3;
+  cursor: pointer;
+}
+
+.chooseFile {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.whitebutton {
+  height: 40px; width: 150px; font-size: 18px; border-radius: 100px; cursor: pointer; background-color: #ffffff;
+}
+
+.whitebutton:hover {
+  background-color: #A7BED3;
+  color: white;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./components/assets/Resized1.png');
+  background-color: #e7e7e7;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 22;
+
+}
+.buttIcons {
+  position: absolute;
+  top: 60%;
+  z-index: 50;
+}
+
+.chart {
+  background:#162440;
+  max-width:750px;
+  width:100%;
+  padding:3px;
+  z-index: 0;
+  /* position: absolute; */
+}
+
+
+.dataDisplay { 
+  padding:30px;
+  border-radius:10px;
+  background:#FFFFFF;
+  opacity:0.9;
+  max-width:400px;
+  color: black;
+
+}
+
+.upload {
+  display: flex;
+  margin-top: 10%;
+}
+
+
+@media (min-width: 998px) and (max-width:1400px) {
+  /* .App {
+    background-image: url('./components/assets/Resized1.png');
+    background-repeat: no-repeat;
+  } */
+  .login {
+    background-image: url('./components/assets/back1_middle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .upload {
+    position: absolute;
+    left:60%;
+    top:30%;
+  }
+
+  .chart {
+    max-width: 500px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+
+  .dataDisplay {
+    background-color: #ffffff;
+    max-width: 400px;
+    /* max-height: 500px; */
+    margin-top:20%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10%;
+  }
+}
+
+
+
+@media (max-width: 690px) {
+  .dataChart {
+    flex-direction: column;
+    margin-top: 50%;
+  }
+
+
+  .getDetailsForm {
+    /* max-width: 200px; */
+  }
+
+  .chart {
+    /* max-width: 405px; */
+    /* height: 205px; */
+    /* margin-top: 50%; */
+  }
+  
+  .dataDisplay {
+    /* margin-top: 50% */
+  }
+}
+
+
+.App-logo {
+  /* animation: spin 20s alternate-reverse infinite; */
+  border-radius: 360px;
+  height: 8rem;
+  margin-left: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /* animation: App-logo-spin infinite 1s linear; */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(70,70,70,1) 69%, rgba(107,108,108,1) 100%);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.Auth-box {
+  position: absolute;
+  right: 10%;
+}
+
+.Auth-form {
+  width: 275px;
+  height: 400px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  /* background: linear-gradient(90deg, rgba(57,0,56,1) 0%, rgba(26,0,85,1) 100%); */
+  background-color: #162440;  
+  font-size: 20px;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;    
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.buttons {
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.buttons:hover{
+  border-color: black;
+  font-size:20px;
+}
+
+
+.gpa {
+  /* background: url('./components/assets/DetailsBG.png'); */
+  min-width: 100%;
+  min-height: 100%;
+}
